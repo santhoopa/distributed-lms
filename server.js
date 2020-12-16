@@ -37,7 +37,9 @@ app.get("/hello",function(req,res){
     res.send("Hello bro");
 });
 
-
+app.get("",function(req,res){
+    res.send("Hello home");
+});
 
 app.listen(80,function(){
  	console.log("Cricket Info Server has started...");
