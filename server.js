@@ -38,7 +38,7 @@ app.get("/hello",function(req,res){
 });
 
 app.get("",function(req,res){
-    res.send("Hello home - This is VM 2");
+    res.send("Hello home - This is VM 3");
 });
 
 app.listen(80,function(){
