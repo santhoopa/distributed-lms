@@ -1,6 +1,6 @@
 var express=require("express");
 var app=express();
-
+/*
 app.get("/test",function(req,res){
 	var sql = require("mssql");
 
@@ -32,7 +32,7 @@ app.get("/test",function(req,res){
     });
 		
 });
-
+*/
 app.get("/hello",function(req,res){
     res.send("Hello bro");
 });
